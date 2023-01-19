@@ -17,8 +17,13 @@ button {
     background: mediumspringgreen;
     color: aliceblue;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid;
     font-weight: bold;
+}
+
+#delete-btn {
+    background: aliceblue;
+    color: mediumspringgreen;
 }
 
 ul {

@@ -2,7 +2,6 @@ let myLeads = [];
 const inputEl = document.getElementById("input-el");
 let inputBtn = document.getElementById("input-btn");
 const ulEl = document.getElementById("ul-el");
-
 let leadsFromLocalStorage = JSON.parse( localStorage.getItem("myLeads") );
 
 if(leadsFromLocalStorage){
